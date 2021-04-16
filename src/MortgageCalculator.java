@@ -5,7 +5,9 @@ public class MortgageCalculator {
     private final float annualInterest;
     private final byte years;
 
-    public MortgageCalculator(int principle, float annualInterest, byte years) {
+
+
+  public MortgageCalculator(int principle, float annualInterest, byte years) {
         this.principal = principle;
         this.annualInterest = annualInterest;
         this.years = years;
